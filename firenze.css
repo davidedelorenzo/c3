@@ -1,0 +1,82 @@
+/* PRIMA PARTE DELLA PAGINA */
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-section {
+    padding: 20px;
+}
+
+#image-container {
+    height: 500px;
+}
+
+
+/* PARTE PRINCIPALE DELLA PAGINA */
+
+#img1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Modifiche relative al testo */ 
+#h1, #h3 {
+    margin-bottom: 0;
+}
+
+#h1 {
+    font-family: Prata, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#h3 {
+    font-family: Prata, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+/*Fine modifiche di testo */
+
+
+/* Mofiche relative alla ul e ai link */
+#a {
+    font-weight: 600;
+}
+
+#h6 {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    border-radius: 6px;
+    background: linear-gradient(150deg,  #aeff00, #ffcc00);
+}
+
+#ul {
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    border-color: #dfdfdf;
+}
+/* Fine delle modifiche alla ul e ai link */
+
+
+/* PARTE FINALE DELLA PAGINA */
+#footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
